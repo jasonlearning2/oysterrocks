@@ -584,6 +584,121 @@ blockquote.pull cite {
   line-height: 1.5;
 }
 
+/* ---------------- Family tree / genealogical register ---------------- */
+
+.tree-gen {
+  margin: 2.4em 0;
+}
+
+.tree-gen h2 {
+  color: var(--deep-green);
+  font-size: 1.4rem;
+  margin-bottom: 4px;
+}
+
+.tree-gen .tree-gen-desc {
+  font-family: var(--sans);
+  color: #5a5546;
+  font-size: 0.92rem;
+  margin: 0 0 1.2em;
+  max-width: 700px;
+}
+
+.tree-person {
+  background: #fff;
+  border: 1px solid #e4dcc7;
+  border-left: 4px solid var(--gold);
+  border-radius: 4px;
+  padding: 16px 20px;
+  margin-bottom: 16px;
+}
+
+.tree-person.root {
+  border-left-color: var(--deep-green);
+  background: var(--parchment);
+}
+
+.tree-person .tp-name {
+  font-weight: 700;
+  color: var(--deep-green);
+  font-size: 1.05rem;
+}
+
+.tree-person .tp-dates {
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--brown);
+  margin-bottom: 6px;
+}
+
+.tree-person .tp-detail {
+  font-size: 0.96rem;
+  margin: 0 0 8px;
+}
+
+.tree-person .tp-children {
+  font-family: var(--sans);
+  font-size: 0.88rem;
+  color: #4a463c;
+  margin: 8px 0 0;
+  padding-left: 20px;
+}
+
+.tree-person .tp-children li {
+  margin-bottom: 4px;
+}
+
+.tree-note {
+  font-family: var(--sans);
+  font-size: 0.84rem;
+  color: #6b6656;
+  background: var(--parchment);
+  border-radius: 4px;
+  padding: 14px 18px;
+  margin: 1.6em 0;
+}
+
+/* ---------------- Key People & Places ---------------- */
+
+.kp-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.kp-list li {
+  padding: 14px 0;
+  border-bottom: 1px solid #e4dcc7;
+}
+
+.kp-list li:last-child { border-bottom: none; }
+
+.kp-list .kp-name {
+  font-weight: 700;
+  color: var(--deep-green);
+}
+
+.kp-list .kp-tag {
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--gold);
+  display: block;
+  margin-bottom: 2px;
+}
+
+.place-list {
+  font-family: var(--sans);
+  font-size: 0.92rem;
+  padding-left: 22px;
+  margin: 0;
+}
+
+.place-list li { margin-bottom: 10px; }
+
 /* ---------------- Sources / footer note ---------------- */
 
 .source-note {
